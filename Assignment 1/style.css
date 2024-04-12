@@ -2,15 +2,29 @@
 * {
   color: #000000;
   background-color: #ffa442;
-  font-family: Fr;
 }
 
 /* Header */
 h1 {
   text-align: center;
+  font-family: "Frank Ruhl Libre", serif;
 }
 
-h5 {
+hr.line {
+  border: 0.1px solid;
+  transform: translateY(-2000%);
+}
+
+p {
   text-align: center;
   transform: translateY(-90%);
+  font-family: "Inter", sans-serif;
+}
+
+/* 1st */
+/*view-source:https://rohitashokkhot.github.io/boxmodel/*/
+.box1 {
+  background-color: #16a147;
+  width: 400px;
+  height: 250px;
 }
